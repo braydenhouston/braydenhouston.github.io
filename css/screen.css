@@ -19,7 +19,6 @@ body {
   background-color: white;
   font-family: 'Roboto Mono', monospace, helvetica, arial, clean, sans-serif;
   font-size: 13.34px;
-  *font-size: small;
   text-align: center;
 }
 
@@ -37,6 +36,7 @@ p {
 
 a {
   color: #00a;
+  text-decoration: none;
 }
 
 a:hover {
@@ -120,8 +120,8 @@ ul.posts {
     font-size: 80%;
     color: #666;
     border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
   }
 
     .site .footer .contact {
