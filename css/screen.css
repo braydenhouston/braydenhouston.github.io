@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: #000;
   color: #fff;
-  background-image: url('./images/bg-crosshatch.png');
+  background-image: url('/images/bg-crosshatch.png');
   font-family: 'Roboto Mono', monospace, helvetica, arial, clean, sans-serif;
   font-size: 13.34px;
   text-align: center;
