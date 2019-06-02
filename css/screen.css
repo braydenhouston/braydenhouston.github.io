@@ -16,7 +16,9 @@ html, body {
 }
 
 body {
-  background-color: white;
+  background-color: #000;
+  color: #fff;
+  background-image: url('./images/bg-crosshatch.png');
   font-family: 'Roboto Mono', monospace, helvetica, arial, clean, sans-serif;
   font-size: 13.34px;
   text-align: center;
@@ -69,7 +71,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
+    font-family: 'Roboto Mono', monospace, helvetica, arial, clean, sans-serif;
     font-size: 80%;
   }
 
@@ -131,16 +133,6 @@ ul.posts {
 
       .site .footer .contact a {
         color: #8085C1;
-      }
-
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
-      .site .footer .rss img {
-        border: 0;
       }
 
     .fab{
